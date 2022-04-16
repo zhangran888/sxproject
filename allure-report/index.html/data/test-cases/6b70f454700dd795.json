@@ -1,0 +1,285 @@
+{
+  "uid" : "6b70f454700dd795",
+  "name" : "修改-机构",
+  "fullName" : "test_main.Test_organ#test_zation_update",
+  "historyId" : "f2dbacb02e8067cd6ca169f90e5bc74d",
+  "time" : {
+    "start" : 1649853861764,
+    "stop" : 1649853861903,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "修改机构",
+      "time" : {
+        "start" : 1649853861764,
+        "stop" : 1649853861902,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b654e2b5271bc84",
+        "name" : "修改机构成功",
+        "source" : "9b654e2b5271bc84.txt",
+        "type" : "text/plain",
+        "size" : 3824
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-机构管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_organ"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "25864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 47,
+        "unknown" : 0,
+        "total" : 47
+      },
+      "items" : [ {
+        "uid" : "dd2c07e54a17345f",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/59/allure/#testresult/dd2c07e54a17345f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649852124824,
+          "stop" : 1649852124966,
+          "duration" : 142
+        }
+      }, {
+        "uid" : "f2dddc872f828ac8",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/58/allure/#testresult/f2dddc872f828ac8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649852061858,
+          "stop" : 1649852061989,
+          "duration" : 131
+        }
+      }, {
+        "uid" : "f52d1ef2b73c56b5",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/57/allure/#testresult/f52d1ef2b73c56b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649851986874,
+          "stop" : 1649851987028,
+          "duration" : 154
+        }
+      }, {
+        "uid" : "10165c573369f9f",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/56/allure/#testresult/10165c573369f9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649849889632,
+          "stop" : 1649849889759,
+          "duration" : 127
+        }
+      }, {
+        "uid" : "73fb25dcbaf417ad",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/55/allure/#testresult/73fb25dcbaf417ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649849792041,
+          "stop" : 1649849792172,
+          "duration" : 131
+        }
+      }, {
+        "uid" : "2ee608348c31b34",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/54/allure/#testresult/2ee608348c31b34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649849656303,
+          "stop" : 1649849656435,
+          "duration" : 132
+        }
+      }, {
+        "uid" : "12ac65e063c5cf41",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/53/allure/#testresult/12ac65e063c5cf41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649845401685,
+          "stop" : 1649845401831,
+          "duration" : 146
+        }
+      }, {
+        "uid" : "274ee88148478b97",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/52/allure/#testresult/274ee88148478b97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649845305997,
+          "stop" : 1649845306133,
+          "duration" : 136
+        }
+      }, {
+        "uid" : "17751f748a7db3c9",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/51/allure/#testresult/17751f748a7db3c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649845137343,
+          "stop" : 1649845137473,
+          "duration" : 130
+        }
+      }, {
+        "uid" : "7ab55d08f7c7156f",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/50/allure/#testresult/7ab55d08f7c7156f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649844460942,
+          "stop" : 1649844461097,
+          "duration" : 155
+        }
+      }, {
+        "uid" : "3df97e4788b27acb",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/49/allure/#testresult/3df97e4788b27acb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649844236735,
+          "stop" : 1649844236884,
+          "duration" : 149
+        }
+      }, {
+        "uid" : "17d06e54f7c0456a",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/48/allure/#testresult/17d06e54f7c0456a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649844055786,
+          "stop" : 1649844055958,
+          "duration" : 172
+        }
+      }, {
+        "uid" : "da3ff1cb161a40c0",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/47/allure/#testresult/da3ff1cb161a40c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649843687656,
+          "stop" : 1649843687819,
+          "duration" : 163
+        }
+      }, {
+        "uid" : "cb39896c72ffcb02",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/46/allure/#testresult/cb39896c72ffcb02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649837659040,
+          "stop" : 1649837659292,
+          "duration" : 252
+        }
+      }, {
+        "uid" : "2e15e7dd7a18a685",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/45/allure/#testresult/2e15e7dd7a18a685",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649836848348,
+          "stop" : 1649836848498,
+          "duration" : 150
+        }
+      }, {
+        "uid" : "a89e7dc9fc4e972c",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/43/allure/#testresult/a89e7dc9fc4e972c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649757786642,
+          "stop" : 1649757786793,
+          "duration" : 151
+        }
+      }, {
+        "uid" : "9ed2b7a4a07574e5",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/42/allure/#testresult/9ed2b7a4a07574e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649756289243,
+          "stop" : 1649756289378,
+          "duration" : 135
+        }
+      }, {
+        "uid" : "bf9472186a0bbe78",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/41/allure/#testresult/bf9472186a0bbe78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649755449089,
+          "stop" : 1649755449241,
+          "duration" : 152
+        }
+      }, {
+        "uid" : "e0d12420edc6072",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/40/allure/#testresult/e0d12420edc6072",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649754915284,
+          "stop" : 1649754915421,
+          "duration" : 137
+        }
+      }, {
+        "uid" : "be6a3c6f0f21362e",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/38/allure/#testresult/be6a3c6f0f21362e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649754228808,
+          "stop" : 1649754228953,
+          "duration" : 145
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6b70f454700dd795.json",
+  "parameterValues" : [ ]
+}

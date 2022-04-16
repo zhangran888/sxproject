@@ -1,0 +1,466 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_main",
+    "children" : [ {
+      "name" : "Test_login",
+      "children" : [ {
+        "name" : "登录模块",
+        "uid" : "880841ed1a2b7d5d",
+        "parentUid" : "1aa3c96fb8c3549e4eac46606814d008",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853859561,
+          "stop" : 1649853859832,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "首页模块",
+        "uid" : "461b11fa77455b80",
+        "parentUid" : "1aa3c96fb8c3549e4eac46606814d008",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853859837,
+          "stop" : 1649853860351,
+          "duration" : 514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1aa3c96fb8c3549e4eac46606814d008"
+    }, {
+      "name" : "Test_institutional",
+      "children" : [ {
+        "name" : "机构分类列表",
+        "uid" : "aabc5bf38702583c",
+        "parentUid" : "9fb2ad8ab407230b64a60cb2f2a8bb8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853860359,
+          "stop" : 1649853860449,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增机构分类",
+        "uid" : "de671860bba9b1d4",
+        "parentUid" : "9fb2ad8ab407230b64a60cb2f2a8bb8e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853860453,
+          "stop" : 1649853860526,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改机构分类",
+        "uid" : "65777ed101505aad",
+        "parentUid" : "9fb2ad8ab407230b64a60cb2f2a8bb8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853860803,
+          "stop" : 1649853860990,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除机构分类",
+        "uid" : "b20edccd8800d654",
+        "parentUid" : "9fb2ad8ab407230b64a60cb2f2a8bb8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853860995,
+          "stop" : 1649853861083,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9fb2ad8ab407230b64a60cb2f2a8bb8e"
+    }, {
+      "name" : "Test_zero",
+      "children" : [ {
+        "name" : "零级配置-列表",
+        "uid" : "5bd829dbfb4aa579",
+        "parentUid" : "4570559bc04399d7a7ae2cbf341b368e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853861089,
+          "stop" : 1649853861198,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增-零级",
+        "uid" : "3a67ab5c5e737064",
+        "parentUid" : "4570559bc04399d7a7ae2cbf341b368e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853861203,
+          "stop" : 1649853861280,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改-零级",
+        "uid" : "86a799ab41f4e2c4",
+        "parentUid" : "4570559bc04399d7a7ae2cbf341b368e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853861302,
+          "stop" : 1649853861406,
+          "duration" : 104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除-零级",
+        "uid" : "8015e78ad0253bbe",
+        "parentUid" : "4570559bc04399d7a7ae2cbf341b368e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853861412,
+          "stop" : 1649853861507,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4570559bc04399d7a7ae2cbf341b368e"
+    }, {
+      "name" : "Test_organ",
+      "children" : [ {
+        "name" : "机构列表",
+        "uid" : "9ec9253e3b99ab0b",
+        "parentUid" : "273aaca04a8192a47eb511512108b756",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853861516,
+          "stop" : 1649853861657,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增-机构",
+        "uid" : "c2bb1587a07c1dbc",
+        "parentUid" : "273aaca04a8192a47eb511512108b756",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853861661,
+          "stop" : 1649853861756,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改-机构",
+        "uid" : "6b70f454700dd795",
+        "parentUid" : "273aaca04a8192a47eb511512108b756",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853861764,
+          "stop" : 1649853861903,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "273aaca04a8192a47eb511512108b756"
+    }, {
+      "name" : "Test_author",
+      "children" : [ {
+        "name" : "删除机构权限",
+        "uid" : "256dca5dc86a4bfd",
+        "parentUid" : "381b32cdd6d5e272898b55aaa3425409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853861911,
+          "stop" : 1649853862013,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "381b32cdd6d5e272898b55aaa3425409"
+    }, {
+      "name" : "Test_role",
+      "children" : [ {
+        "name" : "角色列表",
+        "uid" : "714cd7c997850958",
+        "parentUid" : "ea8d908ee7d88b69d22d1cc93eb318a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853862020,
+          "stop" : 1649853862109,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增角色",
+        "uid" : "9c6f61aa8da6a585",
+        "parentUid" : "ea8d908ee7d88b69d22d1cc93eb318a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853862117,
+          "stop" : 1649853862198,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改角色",
+        "uid" : "2b55d7f8486d56a8",
+        "parentUid" : "ea8d908ee7d88b69d22d1cc93eb318a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853862228,
+          "stop" : 1649853862299,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除角色",
+        "uid" : "958e2cd806b6d950",
+        "parentUid" : "ea8d908ee7d88b69d22d1cc93eb318a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853862336,
+          "stop" : 1649853862402,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea8d908ee7d88b69d22d1cc93eb318a2"
+    }, {
+      "name" : "Test_acunt",
+      "children" : [ {
+        "name" : "用户列表",
+        "uid" : "36ebce5ff093e35e",
+        "parentUid" : "b932fcc2e4d1afb80c312cd106760cae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853862424,
+          "stop" : 1649853862566,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "c7fb5102f9b8ebf1",
+        "parentUid" : "b932fcc2e4d1afb80c312cd106760cae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649853862572,
+          "stop" : 1649853862660,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改用户",
+        "uid" : "e73e06510a91cea8",
+        "parentUid" : "b932fcc2e4d1afb80c312cd106760cae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649853862681,
+          "stop" : 1649853862762,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "停用用户",
+        "uid" : "ccb43d2683859ee4",
+        "parentUid" : "b932fcc2e4d1afb80c312cd106760cae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853862784,
+          "stop" : 1649853862850,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "重置密码",
+        "uid" : "137f13c1cd20d04c",
+        "parentUid" : "b932fcc2e4d1afb80c312cd106760cae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853862873,
+          "stop" : 1649853862937,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b932fcc2e4d1afb80c312cd106760cae"
+    }, {
+      "name" : "Test_me",
+      "children" : [ {
+        "name" : "菜单列表",
+        "uid" : "1e46b56358584c21",
+        "parentUid" : "5c9be08886a1410b2e04996bf3cf0504",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853862962,
+          "stop" : 1649853863165,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除菜单",
+        "uid" : "7504114b41a99827",
+        "parentUid" : "5c9be08886a1410b2e04996bf3cf0504",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853863187,
+          "stop" : 1649853863284,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c9be08886a1410b2e04996bf3cf0504"
+    } ],
+    "uid" : "9ddc06458b7584bde71958fea9f8909c"
+  } ]
+}

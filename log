@@ -1,0 +1,15 @@
+打开cmd运行第一个命令行，进行测试操作
+pytest test_main.py --alluredir reports
+
+在运行之前，清空上一次的数据
+pytest test_main.py --alluredir reports --clean-alluredir
+
+再运行第二个命令行，输出对应的html文件
+allure serve reports
+
+-x 出现一条测试用例失败就退出测试
+-v: 丰富信息模式 , 输出更详细的用例执行信息
+-s: 显示 print 内容
+-q: 简化结果信息，不会显示每个用例的文件名
+
+

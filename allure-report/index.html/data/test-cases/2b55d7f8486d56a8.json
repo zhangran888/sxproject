@@ -1,0 +1,315 @@
+{
+  "uid" : "2b55d7f8486d56a8",
+  "name" : "修改角色",
+  "fullName" : "test_main.Test_role#test_ro_update",
+  "historyId" : "5ab4062a4bac5175fbfddaac8efa808d",
+  "time" : {
+    "start" : 1649853862228,
+    "stop" : 1649853862299,
+    "duration" : 71
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_main.Test_role object at 0x0000015E1368BF40>\n\n    @allure.title('修改角色')\n    def test_ro_update(self):\n>       Role.test_role_update(jwtToken)\n\ntest_main.py:144: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'\n\n    @allure.step('角色修改')\n    def test_role_update(jwtToken):\n        data = {\n                'roleId': 41,\n                'roleName': 'test',\n                'orgIds': '',\n                'userType': 0,\n                'platformId': 0,\n                'parentId': -1,\n                'orgTypeLevels': '[{\"orgTypeId\": \"1008\", \"orgLevels\": [1, 2, 3]}]',\n                'parentOrgTypeId': 20\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api('post', Utiltool.ContUtil.ROLE_UPDATE, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='编辑角色成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='编辑角色失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\nRole\\Role.py:63: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_main.Test_role object at 0x0000015E1368BF40>\n\n    @allure.title('修改角色')\n    def test_ro_update(self):\n>       Role.test_role_update(jwtToken)\n\ntest_main.py:144: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'\n\n    @allure.step('角色修改')\n    def test_role_update(jwtToken):\n        data = {\n                'roleId': 41,\n                'roleName': 'test',\n                'orgIds': '',\n                'userType': 0,\n                'platformId': 0,\n                'parentId': -1,\n                'orgTypeLevels': '[{\"orgTypeId\": \"1008\", \"orgLevels\": [1, 2, 3]}]',\n                'parentOrgTypeId': 20\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api('post', Utiltool.ContUtil.ROLE_UPDATE, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='编辑角色成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='编辑角色失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\nRole\\Role.py:63: AssertionError",
+    "steps" : [ {
+      "name" : "角色修改",
+      "time" : {
+        "start" : 1649853862228,
+        "stop" : 1649853862298,
+        "duration" : 70
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\zran\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\zran\\PycharmProjects\\ManagementBack\\Role\\Role.py\", line 63, in test_role_update\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e93345b39463db9",
+        "name" : "编辑角色失败",
+        "source" : "4e93345b39463db9.txt",
+        "type" : "text/plain",
+        "size" : 51
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'"
+      } ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-角色管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_role"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "25864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 47,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 47
+      },
+      "items" : [ {
+        "uid" : "37653915d9aff494",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/59/allure/#testresult/37653915d9aff494",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649852125246,
+          "stop" : 1649852125319,
+          "duration" : 73
+        }
+      }, {
+        "uid" : "2362ebbefbe9ea7e",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/58/allure/#testresult/2362ebbefbe9ea7e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649852062246,
+          "stop" : 1649852062313,
+          "duration" : 67
+        }
+      }, {
+        "uid" : "890739258119ffd2",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/57/allure/#testresult/890739258119ffd2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649851987325,
+          "stop" : 1649851987401,
+          "duration" : 76
+        }
+      }, {
+        "uid" : "9a1f00ba9f364b59",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/56/allure/#testresult/9a1f00ba9f364b59",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649849890098,
+          "stop" : 1649849890176,
+          "duration" : 78
+        }
+      }, {
+        "uid" : "e609fc00e0b2f978",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/55/allure/#testresult/e609fc00e0b2f978",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649849792464,
+          "stop" : 1649849792541,
+          "duration" : 77
+        }
+      }, {
+        "uid" : "14888cad98aea387",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/54/allure/#testresult/14888cad98aea387",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649849656734,
+          "stop" : 1649849656803,
+          "duration" : 69
+        }
+      }, {
+        "uid" : "94876b3237786fca",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/53/allure/#testresult/94876b3237786fca",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649845402224,
+          "stop" : 1649845402305,
+          "duration" : 81
+        }
+      }, {
+        "uid" : "2eb9248042b0e2d6",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/52/allure/#testresult/2eb9248042b0e2d6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649845306426,
+          "stop" : 1649845306668,
+          "duration" : 242
+        }
+      }, {
+        "uid" : "ea57ceea9ad05cc6",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/51/allure/#testresult/ea57ceea9ad05cc6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649845138034,
+          "stop" : 1649845138123,
+          "duration" : 89
+        }
+      }, {
+        "uid" : "ddcc60de71b290ac",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/50/allure/#testresult/ddcc60de71b290ac",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649844461466,
+          "stop" : 1649844461564,
+          "duration" : 98
+        }
+      }, {
+        "uid" : "6accbc482d884a16",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/49/allure/#testresult/6accbc482d884a16",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649844237174,
+          "stop" : 1649844237260,
+          "duration" : 86
+        }
+      }, {
+        "uid" : "dd31e3c1fb94a4ca",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/48/allure/#testresult/dd31e3c1fb94a4ca",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649844056314,
+          "stop" : 1649844056394,
+          "duration" : 80
+        }
+      }, {
+        "uid" : "e33c246497abc33a",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/47/allure/#testresult/e33c246497abc33a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649843688112,
+          "stop" : 1649843688194,
+          "duration" : 82
+        }
+      }, {
+        "uid" : "783364d78b633704",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/46/allure/#testresult/783364d78b633704",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649837659631,
+          "stop" : 1649837659708,
+          "duration" : 77
+        }
+      }, {
+        "uid" : "6cc47ad5c8bd955a",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/45/allure/#testresult/6cc47ad5c8bd955a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649836848840,
+          "stop" : 1649836848925,
+          "duration" : 85
+        }
+      }, {
+        "uid" : "c88f955231f78a91",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/43/allure/#testresult/c88f955231f78a91",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649757787106,
+          "stop" : 1649757787187,
+          "duration" : 81
+        }
+      }, {
+        "uid" : "f506779b1cd07e3f",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/42/allure/#testresult/f506779b1cd07e3f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649756289787,
+          "stop" : 1649756289894,
+          "duration" : 107
+        }
+      }, {
+        "uid" : "b69fe47d9934bd10",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/41/allure/#testresult/b69fe47d9934bd10",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649755449587,
+          "stop" : 1649755449666,
+          "duration" : 79
+        }
+      }, {
+        "uid" : "8ddb0aaac7331c0d",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/40/allure/#testresult/8ddb0aaac7331c0d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649754915709,
+          "stop" : 1649754915781,
+          "duration" : 72
+        }
+      }, {
+        "uid" : "29619f8a7bda67c",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/38/allure/#testresult/29619f8a7bda67c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649754229239,
+          "stop" : 1649754229312,
+          "duration" : 73
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2b55d7f8486d56a8.json",
+  "parameterValues" : [ ]
+}

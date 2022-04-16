@@ -1,0 +1,137 @@
+[ {
+  "buildOrder" : 62,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/62/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3723
+  }
+}, {
+  "buildOrder" : 61,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/61/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 60,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/60/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 59,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/59/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3272
+  }
+}, {
+  "buildOrder" : 58,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/58/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3294
+  }
+}, {
+  "buildOrder" : 57,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/57/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3579
+  }
+}, {
+  "buildOrder" : 56,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/56/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3281
+  }
+}, {
+  "buildOrder" : 55,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/55/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3296
+  }
+}, {
+  "buildOrder" : 54,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/54/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3598
+  }
+}, {
+  "buildOrder" : 53,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/53/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 5926
+  }
+}, {
+  "buildOrder" : 52,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/52/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4725
+  }
+}, {
+  "buildOrder" : 51,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/51/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4035
+  }
+}, {
+  "buildOrder" : 50,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/50/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4250
+  }
+}, {
+  "buildOrder" : 49,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/49/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3722
+  }
+}, {
+  "buildOrder" : 48,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/48/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4166
+  }
+}, {
+  "buildOrder" : 47,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/47/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7996
+  }
+}, {
+  "buildOrder" : 46,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/46/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4520
+  }
+}, {
+  "buildOrder" : 45,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/45/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4502
+  }
+}, {
+  "buildOrder" : 43,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/43/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3725
+  }
+}, {
+  "buildOrder" : 42,
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/42/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4144
+  }
+} ]

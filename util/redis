@@ -1,0 +1,7 @@
+  redis:
+    database: 3
+    host: 172.18.1.41
+    port: 6379
+    # Redis服务器连接密码(默认为空)
+    password: KFIRcQNRbvJb
+    timeout: 5000
