@@ -1,3 +1,4 @@
+  缙云redis连接方式
   redis:
     database: 3
     host: 172.18.1.41
