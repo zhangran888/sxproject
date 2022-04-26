@@ -6,76 +6,8 @@
     "children" : [ {
       "name" : "25864-MainThread",
       "children" : [ {
-        "name" : "删除菜单",
-        "uid" : "7504114b41a99827",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649853863187,
-          "stop" : 1649853863284,
-          "duration" : 97
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "停用用户",
-        "uid" : "ccb43d2683859ee4",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1649853862784,
-          "stop" : 1649853862850,
-          "duration" : 66
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "菜单列表",
-        "uid" : "1e46b56358584c21",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649853862962,
-          "stop" : 1649853863165,
-          "duration" : 203
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "修改角色",
-        "uid" : "2b55d7f8486d56a8",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1649853862228,
-          "stop" : 1649853862299,
-          "duration" : 71
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "机构列表",
-        "uid" : "9ec9253e3b99ab0b",
+        "uid" : "625200b7fcce7a80",
         "parentUid" : "135874773629295d51e9b3a911f379a2",
         "status" : "passed",
         "time" : {
@@ -91,14 +23,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "新增角色",
-        "uid" : "9c6f61aa8da6a585",
+        "name" : "修改角色",
+        "uid" : "16feb439bf8ace54",
         "parentUid" : "135874773629295d51e9b3a911f379a2",
         "status" : "failed",
         "time" : {
-          "start" : 1649853862117,
-          "stop" : 1649853862198,
-          "duration" : 81
+          "start" : 1649853862228,
+          "stop" : 1649853862299,
+          "duration" : 71
         },
         "flaky" : false,
         "newFailed" : false,
@@ -109,7 +41,7 @@
         "parameters" : [ ]
       }, {
         "name" : "零级配置-列表",
-        "uid" : "5bd829dbfb4aa579",
+        "uid" : "1395406c15cb276e",
         "parentUid" : "135874773629295d51e9b3a911f379a2",
         "status" : "passed",
         "time" : {
@@ -125,212 +57,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "重置密码",
-        "uid" : "137f13c1cd20d04c",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1649853862873,
-          "stop" : 1649853862937,
-          "duration" : 64
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "登录模块",
-        "uid" : "880841ed1a2b7d5d",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649853859561,
-          "stop" : 1649853859832,
-          "duration" : 271
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "修改-零级",
-        "uid" : "86a799ab41f4e2c4",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649853861302,
-          "stop" : 1649853861406,
-          "duration" : 104
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "修改机构分类",
-        "uid" : "65777ed101505aad",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649853860803,
-          "stop" : 1649853860990,
-          "duration" : 187
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "删除机构权限",
-        "uid" : "256dca5dc86a4bfd",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649853861911,
-          "stop" : 1649853862013,
-          "duration" : 102
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "新增用户",
-        "uid" : "c7fb5102f9b8ebf1",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1649853862572,
-          "stop" : 1649853862660,
-          "duration" : 88
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "新增机构分类",
-        "uid" : "de671860bba9b1d4",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1649853860453,
-          "stop" : 1649853860526,
-          "duration" : 73
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "修改-机构",
-        "uid" : "6b70f454700dd795",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649853861764,
-          "stop" : 1649853861903,
-          "duration" : 139
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "新增-零级",
-        "uid" : "3a67ab5c5e737064",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1649853861203,
-          "stop" : 1649853861280,
-          "duration" : 77
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "删除角色",
-        "uid" : "958e2cd806b6d950",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1649853862336,
-          "stop" : 1649853862402,
-          "duration" : 66
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "角色列表",
-        "uid" : "714cd7c997850958",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649853862020,
-          "stop" : 1649853862109,
-          "duration" : 89
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "机构分类列表",
-        "uid" : "aabc5bf38702583c",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649853860359,
-          "stop" : 1649853860449,
-          "duration" : 90
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "删除-零级",
-        "uid" : "8015e78ad0253bbe",
+        "uid" : "fb7e2ec6dab3446b",
         "parentUid" : "135874773629295d51e9b3a911f379a2",
         "status" : "passed",
         "time" : {
@@ -346,25 +74,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "删除机构分类",
-        "uid" : "b20edccd8800d654",
-        "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649853860995,
-          "stop" : 1649853861083,
-          "duration" : 88
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "首页模块",
-        "uid" : "461b11fa77455b80",
+        "uid" : "35cb70514be5b4de",
         "parentUid" : "135874773629295d51e9b3a911f379a2",
         "status" : "passed",
         "time" : {
@@ -380,14 +91,31 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "新增-机构",
-        "uid" : "c2bb1587a07c1dbc",
+        "name" : "修改-零级",
+        "uid" : "56d576b406cda640",
         "parentUid" : "135874773629295d51e9b3a911f379a2",
-        "status" : "failed",
+        "status" : "passed",
         "time" : {
-          "start" : 1649853861661,
-          "stop" : 1649853861756,
-          "duration" : 95
+          "start" : 1649853861302,
+          "stop" : 1649853861406,
+          "duration" : 104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "菜单列表",
+        "uid" : "68ce90919cc0972f",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853862962,
+          "stop" : 1649853863165,
+          "duration" : 203
         },
         "flaky" : false,
         "newFailed" : false,
@@ -398,7 +126,7 @@
         "parameters" : [ ]
       }, {
         "name" : "修改用户",
-        "uid" : "e73e06510a91cea8",
+        "uid" : "f97a3c3b51d5d96",
         "parentUid" : "135874773629295d51e9b3a911f379a2",
         "status" : "broken",
         "time" : {
@@ -414,8 +142,229 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
+        "name" : "新增-零级",
+        "uid" : "47d63edc66bff3ad",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853861203,
+          "stop" : 1649853861280,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增角色",
+        "uid" : "946f5ac0ff452002",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853862117,
+          "stop" : 1649853862198,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "机构分类列表",
+        "uid" : "5658f1a866709ffb",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853860359,
+          "stop" : 1649853860449,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除机构分类",
+        "uid" : "d861877d61246340",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853860995,
+          "stop" : 1649853861083,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增-机构",
+        "uid" : "fcbec4df2694e282",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853861661,
+          "stop" : 1649853861756,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录模块",
+        "uid" : "9f83518047185f59",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853859561,
+          "stop" : 1649853859832,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "角色列表",
+        "uid" : "2bb15e5218e189d7",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853862020,
+          "stop" : 1649853862109,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除机构权限",
+        "uid" : "e1beef124023cb20",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853861911,
+          "stop" : 1649853862013,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "重置密码",
+        "uid" : "2e767aab6608f603",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853862873,
+          "stop" : 1649853862937,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "20b83daa59236f75",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649853862572,
+          "stop" : 1649853862660,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除菜单",
+        "uid" : "780fd59851d2c319",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853863187,
+          "stop" : 1649853863284,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改-机构",
+        "uid" : "88cda440456a8a25",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853861764,
+          "stop" : 1649853861903,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除角色",
+        "uid" : "5610d7f8d351b91f",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853862336,
+          "stop" : 1649853862402,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "用户列表",
-        "uid" : "36ebce5ff093e35e",
+        "uid" : "c8265ce40c7f817f",
         "parentUid" : "135874773629295d51e9b3a911f379a2",
         "status" : "passed",
         "time" : {
@@ -430,8 +379,917 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "新增机构分类",
+        "uid" : "92cf7b7963bafb2d",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853860453,
+          "stop" : 1649853860526,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改机构分类",
+        "uid" : "2c4e5a11e9821607",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649853860803,
+          "stop" : 1649853860990,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "停用用户",
+        "uid" : "ab57e21102df1993",
+        "parentUid" : "135874773629295d51e9b3a911f379a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649853862784,
+          "stop" : 1649853862850,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "135874773629295d51e9b3a911f379a2"
+    }, {
+      "name" : "18724-MainThread",
+      "children" : [ {
+        "name" : "修改用户",
+        "uid" : "c51a3a27e3b37722",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650098051062,
+          "stop" : 1650098051150,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改-零级",
+        "uid" : "6b441d76d8d86fdd",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098049462,
+          "stop" : 1650098049583,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改角色",
+        "uid" : "3cb661b0ec275ead",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650098050561,
+          "stop" : 1650098050647,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "5ab6408ee7cd1ec4",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650098050914,
+          "stop" : 1650098051045,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除机构分类",
+        "uid" : "3cec990f5c408599",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098049102,
+          "stop" : 1650098049195,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "停用用户",
+        "uid" : "75702533d39c4e",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650098051168,
+          "stop" : 1650098051249,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "菜单列表",
+        "uid" : "b919ed3419ab32f1",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098051364,
+          "stop" : 1650098051592,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除机构权限",
+        "uid" : "b899e9750961c038",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098050195,
+          "stop" : 1650098050296,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除-零级",
+        "uid" : "b305d6a04931e831",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098049588,
+          "stop" : 1650098049687,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "零级配置-列表",
+        "uid" : "97a57605baca6638",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098049201,
+          "stop" : 1650098049325,
+          "duration" : 124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "机构分类列表",
+        "uid" : "964edc2bd1ba1a33",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098048475,
+          "stop" : 1650098048597,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户列表",
+        "uid" : "a8b395dc1740a76",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098050759,
+          "stop" : 1650098050908,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改-机构",
+        "uid" : "700310b46f61155f",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098050001,
+          "stop" : 1650098050190,
+          "duration" : 189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "机构列表",
+        "uid" : "455c134007b68de4",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098049691,
+          "stop" : 1650098049855,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增-机构",
+        "uid" : "a48f011fbbc3cdf",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650098049859,
+          "stop" : 1650098049982,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "重置密码",
+        "uid" : "332e60d4d86f7b16",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650098051265,
+          "stop" : 1650098051346,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除角色",
+        "uid" : "8b966af055faaf99",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650098050665,
+          "stop" : 1650098050741,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增机构分类",
+        "uid" : "fba9072c7e6dd692",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650098048602,
+          "stop" : 1650098048685,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改机构分类",
+        "uid" : "bf56259bfa4c56bc",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098048895,
+          "stop" : 1650098049098,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "角色列表",
+        "uid" : "2d5cc4d76fef2e93",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098050316,
+          "stop" : 1650098050429,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除菜单",
+        "uid" : "57993360038d3be",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098051598,
+          "stop" : 1650098051697,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录模块",
+        "uid" : "ac67b83b2e45f533",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098047244,
+          "stop" : 1650098047718,
+          "duration" : 474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "首页模块",
+        "uid" : "7aadd3f6df1df70e",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650098047723,
+          "stop" : 1650098048468,
+          "duration" : 745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增-零级",
+        "uid" : "a43432afc0c5ceca",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650098049331,
+          "stop" : 1650098049451,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增角色",
+        "uid" : "19346c6be6669c61",
+        "parentUid" : "9652a95932dd1a11a75da82237f15871",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650098050433,
+          "stop" : 1650098050527,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9652a95932dd1a11a75da82237f15871"
+    }, {
+      "name" : "19632-MainThread",
+      "children" : [ {
+        "name" : "登录模块",
+        "uid" : "f4587f2fec4bb36c",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099916994,
+          "stop" : 1650099917381,
+          "duration" : 387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改-零级",
+        "uid" : "eed0fb8a5cce6a2f",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099918717,
+          "stop" : 1650099918818,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除菜单",
+        "uid" : "7e40133bee3169c",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099920542,
+          "stop" : 1650099920632,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "停用用户",
+        "uid" : "58131c5240bc4715",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650099920181,
+          "stop" : 1650099920247,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "重置密码",
+        "uid" : "d2b22e1761633e9c",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650099920255,
+          "stop" : 1650099920323,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改角色",
+        "uid" : "2d6248b11beb0186",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650099919663,
+          "stop" : 1650099919740,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除机构权限",
+        "uid" : "a3f0a0bc2703e1cc",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099919364,
+          "stop" : 1650099919449,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "菜单列表",
+        "uid" : "eb1e3882a1342c54",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099920335,
+          "stop" : 1650099920538,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除-零级",
+        "uid" : "eb350ae5d01b992e",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099918820,
+          "stop" : 1650099918912,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "用户列表",
+        "uid" : "5a2be1ebef9ac650",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099919829,
+          "stop" : 1650099919972,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改-机构",
+        "uid" : "f81c69810154160f",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099919213,
+          "stop" : 1650099919360,
+          "duration" : 147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改机构分类",
+        "uid" : "886c0beb1c9b408f",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099918239,
+          "stop" : 1650099918427,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增-零级",
+        "uid" : "41c102e3152201c",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650099918643,
+          "stop" : 1650099918710,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增机构分类",
+        "uid" : "2e628f64546f9e3b",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650099918063,
+          "stop" : 1650099918136,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "abed9f722518f272",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650099919974,
+          "stop" : 1650099920077,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增角色",
+        "uid" : "30961ae1c429530a",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650099919556,
+          "stop" : 1650099919637,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "首页模块",
+        "uid" : "29feb5772df0019a",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099917385,
+          "stop" : 1650099917949,
+          "duration" : 564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "机构分类列表",
+        "uid" : "66229d79eccc5734",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099917955,
+          "stop" : 1650099918060,
+          "duration" : 105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "零级配置-列表",
+        "uid" : "6781a9cbab84846b",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099918525,
+          "stop" : 1650099918641,
+          "duration" : 116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "修改用户",
+        "uid" : "eb9f49ee242cc4da",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650099920088,
+          "stop" : 1650099920175,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "角色列表",
+        "uid" : "417a9bf55837556e",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099919453,
+          "stop" : 1650099919551,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增-机构",
+        "uid" : "28f14ff39c9b8cc0",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650099919092,
+          "stop" : 1650099919200,
+          "duration" : 108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除机构分类",
+        "uid" : "c9cb98839cfe7108",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099918429,
+          "stop" : 1650099918522,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除角色",
+        "uid" : "ffd45d56c92a2a14",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650099919750,
+          "stop" : 1650099919820,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "机构列表",
+        "uid" : "4405b3a7dd5d8b76",
+        "parentUid" : "0b78eaaa9a33cbf9fc39b872db363f02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650099918914,
+          "stop" : 1650099919090,
+          "duration" : 176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b78eaaa9a33cbf9fc39b872db363f02"
     } ],
     "uid" : "22aba09b1d90031cc292b912812b2e1e"
   } ]

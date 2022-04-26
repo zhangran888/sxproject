@@ -1,249 +1,249 @@
 [ {
-  "uid" : "880841ed1a2b7d5d",
-  "name" : "登录模块",
-  "time" : {
-    "start" : 1649853859561,
-    "stop" : 1649853859832,
-    "duration" : 271
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "958e2cd806b6d950",
-  "name" : "删除角色",
-  "time" : {
-    "start" : 1649853862336,
-    "stop" : 1649853862402,
-    "duration" : 66
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "714cd7c997850958",
-  "name" : "角色列表",
-  "time" : {
-    "start" : 1649853862020,
-    "stop" : 1649853862109,
-    "duration" : 89
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8015e78ad0253bbe",
-  "name" : "删除-零级",
-  "time" : {
-    "start" : 1649853861412,
-    "stop" : 1649853861507,
-    "duration" : 95
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c6f61aa8da6a585",
-  "name" : "新增角色",
-  "time" : {
-    "start" : 1649853862117,
-    "stop" : 1649853862198,
-    "duration" : 81
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "461b11fa77455b80",
-  "name" : "首页模块",
-  "time" : {
-    "start" : 1649853859837,
-    "stop" : 1649853860351,
-    "duration" : 514
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "256dca5dc86a4bfd",
-  "name" : "删除机构权限",
-  "time" : {
-    "start" : 1649853861911,
-    "stop" : 1649853862013,
-    "duration" : 102
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c7fb5102f9b8ebf1",
+  "uid" : "abed9f722518f272",
   "name" : "新增用户",
   "time" : {
-    "start" : 1649853862572,
-    "stop" : 1649853862660,
-    "duration" : 88
+    "start" : 1650099919974,
+    "stop" : 1650099920077,
+    "duration" : 103
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "36ebce5ff093e35e",
-  "name" : "用户列表",
-  "time" : {
-    "start" : 1649853862424,
-    "stop" : 1649853862566,
-    "duration" : 142
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3a67ab5c5e737064",
-  "name" : "新增-零级",
-  "time" : {
-    "start" : 1649853861203,
-    "stop" : 1649853861280,
-    "duration" : 77
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c2bb1587a07c1dbc",
-  "name" : "新增-机构",
-  "time" : {
-    "start" : 1649853861661,
-    "stop" : 1649853861756,
-    "duration" : 95
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "de671860bba9b1d4",
+  "uid" : "2e628f64546f9e3b",
   "name" : "新增机构分类",
   "time" : {
-    "start" : 1649853860453,
-    "stop" : 1649853860526,
+    "start" : 1650099918063,
+    "stop" : 1650099918136,
     "duration" : 73
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "65777ed101505aad",
-  "name" : "修改机构分类",
+  "uid" : "6781a9cbab84846b",
+  "name" : "零级配置-列表",
   "time" : {
-    "start" : 1649853860803,
-    "stop" : 1649853860990,
-    "duration" : 187
+    "start" : 1650099918525,
+    "stop" : 1650099918641,
+    "duration" : 116
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6b70f454700dd795",
-  "name" : "修改-机构",
+  "uid" : "eb350ae5d01b992e",
+  "name" : "删除-零级",
   "time" : {
-    "start" : 1649853861764,
-    "stop" : 1649853861903,
-    "duration" : 139
+    "start" : 1650099918820,
+    "stop" : 1650099918912,
+    "duration" : 92
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aabc5bf38702583c",
-  "name" : "机构分类列表",
-  "time" : {
-    "start" : 1649853860359,
-    "stop" : 1649853860449,
-    "duration" : 90
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b55d7f8486d56a8",
-  "name" : "修改角色",
-  "time" : {
-    "start" : 1649853862228,
-    "stop" : 1649853862299,
-    "duration" : 71
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7504114b41a99827",
+  "uid" : "7e40133bee3169c",
   "name" : "删除菜单",
   "time" : {
-    "start" : 1649853863187,
-    "stop" : 1649853863284,
-    "duration" : 97
+    "start" : 1650099920542,
+    "stop" : 1650099920632,
+    "duration" : 90
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "1e46b56358584c21",
+  "uid" : "eed0fb8a5cce6a2f",
+  "name" : "修改-零级",
+  "time" : {
+    "start" : 1650099918717,
+    "stop" : 1650099918818,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb1e3882a1342c54",
   "name" : "菜单列表",
   "time" : {
-    "start" : 1649853862962,
-    "stop" : 1649853863165,
+    "start" : 1650099920335,
+    "stop" : 1650099920538,
     "duration" : 203
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "86a799ab41f4e2c4",
-  "name" : "修改-零级",
+  "uid" : "28f14ff39c9b8cc0",
+  "name" : "新增-机构",
   "time" : {
-    "start" : 1649853861302,
-    "stop" : 1649853861406,
-    "duration" : 104
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b20edccd8800d654",
-  "name" : "删除机构分类",
-  "time" : {
-    "start" : 1649853860995,
-    "stop" : 1649853861083,
-    "duration" : 88
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "e73e06510a91cea8",
-  "name" : "修改用户",
-  "time" : {
-    "start" : 1649853862681,
-    "stop" : 1649853862762,
-    "duration" : 81
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9ec9253e3b99ab0b",
-  "name" : "机构列表",
-  "time" : {
-    "start" : 1649853861516,
-    "stop" : 1649853861657,
-    "duration" : 141
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5bd829dbfb4aa579",
-  "name" : "零级配置-列表",
-  "time" : {
-    "start" : 1649853861089,
-    "stop" : 1649853861198,
-    "duration" : 109
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "137f13c1cd20d04c",
-  "name" : "重置密码",
-  "time" : {
-    "start" : 1649853862873,
-    "stop" : 1649853862937,
-    "duration" : 64
+    "start" : 1650099919092,
+    "stop" : 1650099919200,
+    "duration" : 108
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "ccb43d2683859ee4",
+  "uid" : "2d6248b11beb0186",
+  "name" : "修改角色",
+  "time" : {
+    "start" : 1650099919663,
+    "stop" : 1650099919740,
+    "duration" : 77
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "66229d79eccc5734",
+  "name" : "机构分类列表",
+  "time" : {
+    "start" : 1650099917955,
+    "stop" : 1650099918060,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "886c0beb1c9b408f",
+  "name" : "修改机构分类",
+  "time" : {
+    "start" : 1650099918239,
+    "stop" : 1650099918427,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41c102e3152201c",
+  "name" : "新增-零级",
+  "time" : {
+    "start" : 1650099918643,
+    "stop" : 1650099918710,
+    "duration" : 67
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb9f49ee242cc4da",
+  "name" : "修改用户",
+  "time" : {
+    "start" : 1650099920088,
+    "stop" : 1650099920175,
+    "duration" : 87
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5a2be1ebef9ac650",
+  "name" : "用户列表",
+  "time" : {
+    "start" : 1650099919829,
+    "stop" : 1650099919972,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9cb98839cfe7108",
+  "name" : "删除机构分类",
+  "time" : {
+    "start" : 1650099918429,
+    "stop" : 1650099918522,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d2b22e1761633e9c",
+  "name" : "重置密码",
+  "time" : {
+    "start" : 1650099920255,
+    "stop" : 1650099920323,
+    "duration" : 68
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "30961ae1c429530a",
+  "name" : "新增角色",
+  "time" : {
+    "start" : 1650099919556,
+    "stop" : 1650099919637,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3f0a0bc2703e1cc",
+  "name" : "删除机构权限",
+  "time" : {
+    "start" : 1650099919364,
+    "stop" : 1650099919449,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f81c69810154160f",
+  "name" : "修改-机构",
+  "time" : {
+    "start" : 1650099919213,
+    "stop" : 1650099919360,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "417a9bf55837556e",
+  "name" : "角色列表",
+  "time" : {
+    "start" : 1650099919453,
+    "stop" : 1650099919551,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4405b3a7dd5d8b76",
+  "name" : "机构列表",
+  "time" : {
+    "start" : 1650099918914,
+    "stop" : 1650099919090,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29feb5772df0019a",
+  "name" : "首页模块",
+  "time" : {
+    "start" : 1650099917385,
+    "stop" : 1650099917949,
+    "duration" : 564
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4587f2fec4bb36c",
+  "name" : "登录模块",
+  "time" : {
+    "start" : 1650099916994,
+    "stop" : 1650099917381,
+    "duration" : 387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffd45d56c92a2a14",
+  "name" : "删除角色",
+  "time" : {
+    "start" : 1650099919750,
+    "stop" : 1650099919820,
+    "duration" : 70
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "58131c5240bc4715",
   "name" : "停用用户",
   "time" : {
-    "start" : 1649853862784,
-    "stop" : 1649853862850,
+    "start" : 1650099920181,
+    "stop" : 1650099920247,
     "duration" : 66
   },
   "status" : "failed",

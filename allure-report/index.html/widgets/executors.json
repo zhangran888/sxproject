@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://10.88.88.20:8080/",
-  "buildOrder" : 62,
-  "buildName" : "manage-bank-interface-auto #62",
-  "buildUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/62/",
+  "buildOrder" : 64,
+  "buildName" : "manage-bank-interface-auto #64",
+  "buildUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/64/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/62/allure"
+  "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/64/allure"
 } ]
