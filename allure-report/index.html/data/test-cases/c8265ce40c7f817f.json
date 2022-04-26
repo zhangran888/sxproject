@@ -1,0 +1,92 @@
+{
+  "uid" : "c8265ce40c7f817f",
+  "name" : "用户列表",
+  "fullName" : "test_main.Test_acunt#test_coun_list",
+  "historyId" : "bbe3a5fe611bbbcf7c99aafdc459e12f",
+  "time" : {
+    "start" : 1649853862424,
+    "stop" : 1649853862566,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "用户管理-列表",
+      "time" : {
+        "start" : 1649853862424,
+        "stop" : 1649853862566,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "32ca38e6ced50407",
+        "name" : "用户管理列表查询",
+        "source" : "32ca38e6ced50407.txt",
+        "type" : "text/plain",
+        "size" : 14518
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-用户管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_acunt"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "25864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8265ce40c7f817f.json",
+  "parameterValues" : [ ]
+}

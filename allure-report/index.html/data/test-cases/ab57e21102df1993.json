@@ -1,0 +1,98 @@
+{
+  "uid" : "ab57e21102df1993",
+  "name" : "停用用户",
+  "fullName" : "test_main.Test_acunt#test_ac_disable",
+  "historyId" : "0f1e6d7483de21c11e2abbabadca12ad",
+  "time" : {
+    "start" : 1649853862784,
+    "stop" : 1649853862850,
+    "duration" : 66
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_main.Test_acunt object at 0x0000015E1368BBE0>\n\n    @allure.title('停用用户')\n    def test_ac_disable(self):\n>       Account.test_disable(jwtToken)\n\ntest_main.py:167: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'\n\n    @allure.step('停用用户')\n    def test_disable(jwtToken):\n        data = {\n            'userId': '',\n            'status': 1\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api('post', Utiltool.ContUtil.ACCOUNT_DISABLE, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='停用用户成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='停用用户失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\naccount\\Account.py:127: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_main.Test_acunt object at 0x0000015E1368BBE0>\n\n    @allure.title('停用用户')\n    def test_ac_disable(self):\n>       Account.test_disable(jwtToken)\n\ntest_main.py:167: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'\n\n    @allure.step('停用用户')\n    def test_disable(jwtToken):\n        data = {\n            'userId': '',\n            'status': 1\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api('post', Utiltool.ContUtil.ACCOUNT_DISABLE, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='停用用户成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='停用用户失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\naccount\\Account.py:127: AssertionError",
+    "steps" : [ {
+      "name" : "停用用户",
+      "time" : {
+        "start" : 1649853862784,
+        "stop" : 1649853862849,
+        "duration" : 65
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\zran\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\zran\\PycharmProjects\\ManagementBack\\account\\Account.py\", line 127, in test_disable\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1d7ea24cbdad4662",
+        "name" : "停用用户失败",
+        "source" : "1d7ea24cbdad4662.txt",
+        "type" : "text/plain",
+        "size" : 48
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-用户管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_acunt"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "25864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab57e21102df1993.json",
+  "parameterValues" : [ ]
+}

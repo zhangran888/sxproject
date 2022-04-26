@@ -1,0 +1,176 @@
+{
+  "uid" : "7aadd3f6df1df70e",
+  "name" : "首页模块",
+  "fullName" : "test_main.Test_login#test_home",
+  "historyId" : "5634e4a1f9841adb0dc995071199d33b",
+  "time" : {
+    "start" : 1650098047723,
+    "stop" : 1650098048468,
+    "duration" : 745
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "辖内机构数显示",
+      "time" : {
+        "start" : 1650098047723,
+        "stop" : 1650098048054,
+        "duration" : 331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7fcb80d1134ceef",
+        "name" : "jwtToken数据获取",
+        "source" : "c7fcb80d1134ceef.txt",
+        "type" : "text/plain",
+        "size" : 211
+      }, {
+        "uid" : "2a9fecec38cc7d32",
+        "name" : "辖内机构数",
+        "source" : "2a9fecec38cc7d32.txt",
+        "type" : "text/plain",
+        "size" : 68
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+      } ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "本机构用户数显示",
+      "time" : {
+        "start" : 1650098048054,
+        "stop" : 1650098048170,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dca25fc0f9078bc2",
+        "name" : "本机构用户数",
+        "source" : "dca25fc0f9078bc2.txt",
+        "type" : "text/plain",
+        "size" : 91
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "用户基本信息",
+      "time" : {
+        "start" : 1650098048170,
+        "stop" : 1650098048327,
+        "duration" : 157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee595ecadea31c7d",
+        "name" : "用户基本信息",
+        "source" : "ee595ecadea31c7d.txt",
+        "type" : "text/plain",
+        "size" : 79
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "用户登录信息",
+      "time" : {
+        "start" : 1650098048328,
+        "stop" : 1650098048467,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "61f391ff488e6578",
+        "name" : "用户基本信息",
+        "source" : "61f391ff488e6578.txt",
+        "type" : "text/plain",
+        "size" : 4215
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b93639fa4ef48789",
+      "name" : "stdout",
+      "source" : "b93639fa4ef48789.txt",
+      "type" : "text/plain",
+      "size" : 101414
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "管理后台-登录-首页"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "18724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7aadd3f6df1df70e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,92 @@
+{
+  "uid" : "f97a3c3b51d5d96",
+  "name" : "修改用户",
+  "fullName" : "test_main.Test_acunt#test_ac_update",
+  "historyId" : "a5521c273a27ebd6fab1920ea6c2c64c",
+  "time" : {
+    "start" : 1649853862681,
+    "stop" : 1649853862762,
+    "duration" : 81
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'code'",
+  "statusTrace" : "self = <test_main.Test_acunt object at 0x0000015E13696460>\n\n    @allure.title('修改用户')\n    def test_ac_update(self):\n>       Account.test_account_update(jwtToken)\n\ntest_main.py:163: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'\n\n    @allure.step('编辑用户')\n    def test_account_update(jwtToken):\n        data = {\n            'userName': '编辑测试',\n            'orgId': 10028,\n            'idCard': '440509199904220813',\n            'roleIds': '37, 38, 39, 45',\n            'phonenumber': '13902748130',\n            'account': 'TLCB789',\n            'remark': '产品测'+str(random.randint(22, 88)),\n            'status': 0,\n            'userId': 89,\n            'zzdAccount': ''\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api(\"post\", Utiltool.ContUtil.ACCOUNT_UPDATE, data=data, headers=headers)\n>       if result['code'] == 0:\nE       KeyError: 'code'\n\naccount\\Account.py:58: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'code'",
+    "statusTrace" : "self = <test_main.Test_acunt object at 0x0000015E13696460>\n\n    @allure.title('修改用户')\n    def test_ac_update(self):\n>       Account.test_account_update(jwtToken)\n\ntest_main.py:163: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'\n\n    @allure.step('编辑用户')\n    def test_account_update(jwtToken):\n        data = {\n            'userName': '编辑测试',\n            'orgId': 10028,\n            'idCard': '440509199904220813',\n            'roleIds': '37, 38, 39, 45',\n            'phonenumber': '13902748130',\n            'account': 'TLCB789',\n            'remark': '产品测'+str(random.randint(22, 88)),\n            'status': 0,\n            'userId': 89,\n            'zzdAccount': ''\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api(\"post\", Utiltool.ContUtil.ACCOUNT_UPDATE, data=data, headers=headers)\n>       if result['code'] == 0:\nE       KeyError: 'code'\n\naccount\\Account.py:58: KeyError",
+    "steps" : [ {
+      "name" : "编辑用户",
+      "time" : {
+        "start" : 1649853862681,
+        "stop" : 1649853862761,
+        "duration" : 80
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: 'code'\n",
+      "statusTrace" : "  File \"C:\\Users\\zran\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\zran\\PycharmProjects\\ManagementBack\\account\\Account.py\", line 58, in test_account_update\n    if result['code'] == 0:\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-用户管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_acunt"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "25864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f97a3c3b51d5d96.json",
+  "parameterValues" : [ ]
+}

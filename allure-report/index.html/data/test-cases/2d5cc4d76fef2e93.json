@@ -1,0 +1,92 @@
+{
+  "uid" : "2d5cc4d76fef2e93",
+  "name" : "角色列表",
+  "fullName" : "test_main.Test_role#test_ro_list",
+  "historyId" : "efb970b1c42999d5c0a0969bec8a580f",
+  "time" : {
+    "start" : 1650098050316,
+    "stop" : 1650098050429,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "角色管理-列表",
+      "time" : {
+        "start" : 1650098050316,
+        "stop" : 1650098050429,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f07dc95a018418c",
+        "name" : "角色列表查询",
+        "source" : "2f07dc95a018418c.txt",
+        "type" : "text/plain",
+        "size" : 8058
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-角色管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_role"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "18724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d5cc4d76fef2e93.json",
+  "parameterValues" : [ ]
+}

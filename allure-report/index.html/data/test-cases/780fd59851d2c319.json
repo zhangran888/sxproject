@@ -1,0 +1,95 @@
+{
+  "uid" : "780fd59851d2c319",
+  "name" : "删除菜单",
+  "fullName" : "test_main.Test_me#test_mnu_add",
+  "historyId" : "6233bf0959ee7835f9d26f4a62502599",
+  "time" : {
+    "start" : 1649853863187,
+    "stop" : 1649853863284,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "修改菜单",
+      "time" : {
+        "start" : 1649853863187,
+        "stop" : 1649853863284,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "16dda98f7fa3920e",
+        "name" : "修改菜单成功",
+        "source" : "16dda98f7fa3920e.txt",
+        "type" : "text/plain",
+        "size" : 549
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-菜单管理"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_me"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "25864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "780fd59851d2c319.json",
+  "parameterValues" : [ ]
+}

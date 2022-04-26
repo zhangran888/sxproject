@@ -1,0 +1,98 @@
+{
+  "uid" : "19346c6be6669c61",
+  "name" : "新增角色",
+  "fullName" : "test_main.Test_role#test_ro_add",
+  "historyId" : "77adbcad1c44ef83c730521790161651",
+  "time" : {
+    "start" : 1650098050433,
+    "stop" : 1650098050527,
+    "duration" : 94
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_main.Test_role object at 0x000002045316BEB0>\n\n    @allure.title('新增角色')\n    def test_ro_add(self):\n>       Role.test_role_add(jwtToken)\n\ntest_main.py:140: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'\n\n    @allure.step('角色新增')\n    def test_role_add(jwtToken):\n        data = {\n                'roleId': '',\n                'roleName': 'test',\n                'orgIds': '',\n                'userType': 0,\n                'platformId': 0,\n                'parentId': -1,\n                'orgTypeLevels': '[{\"orgTypeId\": \"1008\", \"orgLevels\": [1, 2, 3]}]',\n                'parentOrgTypeId': 20\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api('post', Utiltool.ContUtil.ROLE_ADD, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='新增角色成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='新增角色失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\nRole\\Role.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_main.Test_role object at 0x000002045316BEB0>\n\n    @allure.title('新增角色')\n    def test_ro_add(self):\n>       Role.test_role_add(jwtToken)\n\ntest_main.py:140: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'\n\n    @allure.step('角色新增')\n    def test_role_add(jwtToken):\n        data = {\n                'roleId': '',\n                'roleName': 'test',\n                'orgIds': '',\n                'userType': 0,\n                'platformId': 0,\n                'parentId': -1,\n                'orgTypeLevels': '[{\"orgTypeId\": \"1008\", \"orgLevels\": [1, 2, 3]}]',\n                'parentOrgTypeId': 20\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api('post', Utiltool.ContUtil.ROLE_ADD, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='新增角色成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='新增角色失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\nRole\\Role.py:36: AssertionError",
+    "steps" : [ {
+      "name" : "角色新增",
+      "time" : {
+        "start" : 1650098050433,
+        "stop" : 1650098050526,
+        "duration" : 93
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\zran\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\zran\\PycharmProjects\\ManagementBack\\Role\\Role.py\", line 36, in test_role_add\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d1e1068d44e24d9",
+        "name" : "新增角色失败",
+        "source" : "3d1e1068d44e24d9.txt",
+        "type" : "text/plain",
+        "size" : 51
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-角色管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_role"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "18724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19346c6be6669c61.json",
+  "parameterValues" : [ ]
+}

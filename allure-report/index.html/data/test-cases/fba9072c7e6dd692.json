@@ -1,0 +1,98 @@
+{
+  "uid" : "fba9072c7e6dd692",
+  "name" : "新增机构分类",
+  "fullName" : "test_main.Test_institutional#test_a",
+  "historyId" : "10157bf89a2ff2749bd5cfe84b63dd6a",
+  "time" : {
+    "start" : 1650098048602,
+    "stop" : 1650098048685,
+    "duration" : 83
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_main.Test_institutional object at 0x0000020453156F70>\n\n    @allure.title('新增机构分类')\n    def test_a(self):\n>       Institutional.test_add_institutional(jwtToken)\n\ntest_main.py:67: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'\n\n    @allure.step('新增机构分类')\n    def test_add_institutional(jwtToken):\n        # data = {\n        #     'parentId': 20,\n        #     'orgTypeName': 'test'+str(random.randint(50, 99)),\n        #     'orgTypeNo': random.randint(50, 99),\n        #     'remark': '测试'\n        # }\n        # # 用于报错\n        data = {}\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api('post', Utiltool.ContUtil.INSTITUTIONAL_ADD, data=data, headers=headers)\n        if result is None:\n            with allure.step('异常'):\n                allure.attach('接口异常', name='新增机构分类失败', attachment_type=allure.attachment_type.TEXT)\n                assert False\n        else:\n            if result['code'] == 0:\n                msg = str(result)\n                allure.attach(msg, name='新增机构分类成功', attachment_type=allure.attachment_type.TEXT)\n                assert True\n            else:\n                allure.attach(result['msg'], name='新增机构分类失败', attachment_type=allure.attachment_type.TEXT)\n>               assert False\nE               AssertionError\n\ninstitutional\\Institutional.py:70: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_main.Test_institutional object at 0x0000020453156F70>\n\n    @allure.title('新增机构分类')\n    def test_a(self):\n>       Institutional.test_add_institutional(jwtToken)\n\ntest_main.py:67: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'\n\n    @allure.step('新增机构分类')\n    def test_add_institutional(jwtToken):\n        # data = {\n        #     'parentId': 20,\n        #     'orgTypeName': 'test'+str(random.randint(50, 99)),\n        #     'orgTypeNo': random.randint(50, 99),\n        #     'remark': '测试'\n        # }\n        # # 用于报错\n        data = {}\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api('post', Utiltool.ContUtil.INSTITUTIONAL_ADD, data=data, headers=headers)\n        if result is None:\n            with allure.step('异常'):\n                allure.attach('接口异常', name='新增机构分类失败', attachment_type=allure.attachment_type.TEXT)\n                assert False\n        else:\n            if result['code'] == 0:\n                msg = str(result)\n                allure.attach(msg, name='新增机构分类成功', attachment_type=allure.attachment_type.TEXT)\n                assert True\n            else:\n                allure.attach(result['msg'], name='新增机构分类失败', attachment_type=allure.attachment_type.TEXT)\n>               assert False\nE               AssertionError\n\ninstitutional\\Institutional.py:70: AssertionError",
+    "steps" : [ {
+      "name" : "新增机构分类",
+      "time" : {
+        "start" : 1650098048602,
+        "stop" : 1650098048682,
+        "duration" : 80
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\zran\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\zran\\PycharmProjects\\ManagementBack\\institutional\\Institutional.py\", line 70, in test_add_institutional\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae87907c3b7c32e1",
+        "name" : "新增机构分类失败",
+        "source" : "ae87907c3b7c32e1.txt",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-机构分类"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_institutional"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "18724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fba9072c7e6dd692.json",
+  "parameterValues" : [ ]
+}

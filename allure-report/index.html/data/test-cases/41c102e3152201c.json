@@ -1,0 +1,333 @@
+{
+  "uid" : "41c102e3152201c",
+  "name" : "新增-零级",
+  "fullName" : "test_main.Test_zero#test_zer_add",
+  "historyId" : "daf8d188bc444a471b9a3c1191f9875c",
+  "time" : {
+    "start" : 1650099918643,
+    "stop" : 1650099918710,
+    "duration" : 67
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_main.Test_zero object at 0x00000143B636A4C0>\n\n    @allure.title('新增-零级')\n    def test_zer_add(self):\n>       Zero.test_zero_add(jwtToken)\n\ntest_main.py:87: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlNDhiYTY2YS1mMmIyLTQ0NGQtODM0OS1iNzE5MDdlNzE3ZjMiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5OTg5OCwiZXhwIjoxNjUwNzA0Njk4fQ.A5A7TRlJtqY0Fg3njcFCTWTvAVW_X1_v5brlgkBrUrQ'\n\n    @allure.step('新增-零级')\n    def test_zero_add(jwtToken):\n        data = {\n            'organizationName': '32',\n            'uscId': '232332332332232333',\n            'orgUniformName': '23',\n            'orgParentTypeId': '20',\n            'orgTypeId': '21',\n            'abbreviation': 'test',\n            'orderNum': '23',\n            'serveTel': '',\n            'orgId': '',\n            'file': ''\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api(\"post\", Utiltool.ContUtil.ZERO_ADD, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='新增零级机构成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='新增零级机构-失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\nzero\\Zero.py:35: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_main.Test_zero object at 0x00000143B636A4C0>\n\n    @allure.title('新增-零级')\n    def test_zer_add(self):\n>       Zero.test_zero_add(jwtToken)\n\ntest_main.py:87: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlNDhiYTY2YS1mMmIyLTQ0NGQtODM0OS1iNzE5MDdlNzE3ZjMiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5OTg5OCwiZXhwIjoxNjUwNzA0Njk4fQ.A5A7TRlJtqY0Fg3njcFCTWTvAVW_X1_v5brlgkBrUrQ'\n\n    @allure.step('新增-零级')\n    def test_zero_add(jwtToken):\n        data = {\n            'organizationName': '32',\n            'uscId': '232332332332232333',\n            'orgUniformName': '23',\n            'orgParentTypeId': '20',\n            'orgTypeId': '21',\n            'abbreviation': 'test',\n            'orderNum': '23',\n            'serveTel': '',\n            'orgId': '',\n            'file': ''\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api(\"post\", Utiltool.ContUtil.ZERO_ADD, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='新增零级机构成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='新增零级机构-失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\nzero\\Zero.py:35: AssertionError",
+    "steps" : [ {
+      "name" : "新增-零级",
+      "time" : {
+        "start" : 1650099918643,
+        "stop" : 1650099918710,
+        "duration" : 67
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\zran\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\zran\\PycharmProjects\\ManagementBack\\zero\\Zero.py\", line 35, in test_zero_add\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9eb48c598d74a625",
+        "name" : "新增零级机构-失败",
+        "source" : "9eb48c598d74a625.txt",
+        "type" : "text/plain",
+        "size" : 421
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlNDhiYTY2YS1mMmIyLTQ0NGQtODM0OS1iNzE5MDdlNzE3ZjMiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5OTg5OCwiZXhwIjoxNjUwNzA0Njk4fQ.A5A7TRlJtqY0Fg3njcFCTWTvAVW_X1_v5brlgkBrUrQ'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-零级机构"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_zero"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "19632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a43432afc0c5ceca",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1650098049331,
+        "stop" : 1650098049451,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "47d63edc66bff3ad",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1649853861203,
+        "stop" : 1649853861280,
+        "duration" : 77
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 49,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 49
+      },
+      "items" : [ {
+        "uid" : "35f8a62b7c3286b9",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/63/allure/#testresult/35f8a62b7c3286b9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1650098049331,
+          "stop" : 1650098049451,
+          "duration" : 120
+        }
+      }, {
+        "uid" : "3a67ab5c5e737064",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/62/allure/#testresult/3a67ab5c5e737064",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649853861203,
+          "stop" : 1649853861280,
+          "duration" : 77
+        }
+      }, {
+        "uid" : "44888905df2cf614",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/59/allure/#testresult/44888905df2cf614",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649852124321,
+          "stop" : 1649852124385,
+          "duration" : 64
+        }
+      }, {
+        "uid" : "bb3f3b3ea1710095",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/58/allure/#testresult/bb3f3b3ea1710095",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649852061349,
+          "stop" : 1649852061411,
+          "duration" : 62
+        }
+      }, {
+        "uid" : "bda9c7c3075fd6e9",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/57/allure/#testresult/bda9c7c3075fd6e9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649851986331,
+          "stop" : 1649851986396,
+          "duration" : 65
+        }
+      }, {
+        "uid" : "90c8f4f101d91480",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/56/allure/#testresult/90c8f4f101d91480",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649849889136,
+          "stop" : 1649849889199,
+          "duration" : 63
+        }
+      }, {
+        "uid" : "a81e670cb65c627c",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/55/allure/#testresult/a81e670cb65c627c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649849791547,
+          "stop" : 1649849791613,
+          "duration" : 66
+        }
+      }, {
+        "uid" : "a56fb3c6cc484c34",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/54/allure/#testresult/a56fb3c6cc484c34",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649849655706,
+          "stop" : 1649849655776,
+          "duration" : 70
+        }
+      }, {
+        "uid" : "a801e7827bdcaec3",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/53/allure/#testresult/a801e7827bdcaec3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649845401077,
+          "stop" : 1649845401151,
+          "duration" : 74
+        }
+      }, {
+        "uid" : "36ccebdae3c40998",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/52/allure/#testresult/36ccebdae3c40998",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649845304405,
+          "stop" : 1649845304485,
+          "duration" : 80
+        }
+      }, {
+        "uid" : "18b8f439ad14b2c6",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/51/allure/#testresult/18b8f439ad14b2c6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649845136797,
+          "stop" : 1649845136887,
+          "duration" : 90
+        }
+      }, {
+        "uid" : "ba470de54799a544",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/50/allure/#testresult/ba470de54799a544",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649844460303,
+          "stop" : 1649844460391,
+          "duration" : 88
+        }
+      }, {
+        "uid" : "178c78c21b32121c",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/49/allure/#testresult/178c78c21b32121c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649844236174,
+          "stop" : 1649844236246,
+          "duration" : 72
+        }
+      }, {
+        "uid" : "1877920303af3ad",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/48/allure/#testresult/1877920303af3ad",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649844055162,
+          "stop" : 1649844055249,
+          "duration" : 87
+        }
+      }, {
+        "uid" : "19bc985a1ccc3a13",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/47/allure/#testresult/19bc985a1ccc3a13",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649843686009,
+          "stop" : 1649843686086,
+          "duration" : 77
+        }
+      }, {
+        "uid" : "50c2a953a62ec40d",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/46/allure/#testresult/50c2a953a62ec40d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649837658339,
+          "stop" : 1649837658415,
+          "duration" : 76
+        }
+      }, {
+        "uid" : "210e5dd3be827492",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/45/allure/#testresult/210e5dd3be827492",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649836847707,
+          "stop" : 1649836847810,
+          "duration" : 103
+        }
+      }, {
+        "uid" : "7dd92eeb5c39efbc",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/43/allure/#testresult/7dd92eeb5c39efbc",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649757786067,
+          "stop" : 1649757786148,
+          "duration" : 81
+        }
+      }, {
+        "uid" : "ea1ebfd2127f1b85",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/42/allure/#testresult/ea1ebfd2127f1b85",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649756288401,
+          "stop" : 1649756288590,
+          "duration" : 189
+        }
+      }, {
+        "uid" : "f52c23c2b07d18f9",
+        "reportUrl" : "http://10.88.88.20:8080/job/manage-bank-interface-auto/41/allure/#testresult/f52c23c2b07d18f9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1649755448532,
+          "stop" : 1649755448604,
+          "duration" : 72
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "41c102e3152201c.json",
+  "parameterValues" : [ ]
+}

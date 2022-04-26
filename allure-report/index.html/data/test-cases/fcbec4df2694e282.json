@@ -1,0 +1,98 @@
+{
+  "uid" : "fcbec4df2694e282",
+  "name" : "新增-机构",
+  "fullName" : "test_main.Test_organ#test_zation_add",
+  "historyId" : "f68762503752619ac648b9e0d951f8ba",
+  "time" : {
+    "start" : 1649853861661,
+    "stop" : 1649853861756,
+    "duration" : 95
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_main.Test_organ object at 0x0000015E1368B8E0>\n\n    @allure.title('新增-机构')\n    def test_zation_add(self):\n>       Organizational.test_organizational_add(jwtToken)\n\ntest_main.py:106: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'\n\n    @allure.step('新增机构')\n    def test_organizational_add(jwtToken):\n        data = {\n            'orgId': '',\n            'orgProvinceId': '330000',\n            'orgProvince': '浙江省',\n            'orgCity': '丽水市',\n            'orgArea': '缙云县',\n            'orgStreet': '新建镇',\n            'orgLatitude': '30.344444',\n            'orgLongitude': '123.232333',\n            'creditFlag': '1',\n            'orgDetail': '测试区',\n            'organizationName': '测试',\n            'orgSimpleName': '测试',\n            'uscId': '91340000762794062H',\n            'rootOrgId': '10049',\n            'orderNum': '1',\n            'parentId': '8888',\n            'status': '0',\n            'remark': '测试',\n            'orgCityId': '331100',\n            'orgAreaId': '331122',\n            'orgStreetId': '33112206'\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api(\"post\", Utiltool.ContUtil.ORGANIZATIONAL_ADD, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='新增机构成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='新增机构失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\norganizational\\Organizational.py:48: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_main.Test_organ object at 0x0000015E1368B8E0>\n\n    @allure.title('新增-机构')\n    def test_zation_add(self):\n>       Organizational.test_organizational_add(jwtToken)\n\ntest_main.py:106: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'\n\n    @allure.step('新增机构')\n    def test_organizational_add(jwtToken):\n        data = {\n            'orgId': '',\n            'orgProvinceId': '330000',\n            'orgProvince': '浙江省',\n            'orgCity': '丽水市',\n            'orgArea': '缙云县',\n            'orgStreet': '新建镇',\n            'orgLatitude': '30.344444',\n            'orgLongitude': '123.232333',\n            'creditFlag': '1',\n            'orgDetail': '测试区',\n            'organizationName': '测试',\n            'orgSimpleName': '测试',\n            'uscId': '91340000762794062H',\n            'rootOrgId': '10049',\n            'orderNum': '1',\n            'parentId': '8888',\n            'status': '0',\n            'remark': '测试',\n            'orgCityId': '331100',\n            'orgAreaId': '331122',\n            'orgStreetId': '33112206'\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api(\"post\", Utiltool.ContUtil.ORGANIZATIONAL_ADD, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='新增机构成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='新增机构失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\norganizational\\Organizational.py:48: AssertionError",
+    "steps" : [ {
+      "name" : "新增机构",
+      "time" : {
+        "start" : 1649853861661,
+        "stop" : 1649853861756,
+        "duration" : 95
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\zran\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\zran\\PycharmProjects\\ManagementBack\\organizational\\Organizational.py\", line 48, in test_organizational_add\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81e53081c06ef186",
+        "name" : "新增机构失败",
+        "source" : "81e53081c06ef186.txt",
+        "type" : "text/plain",
+        "size" : 57
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5ZjBiMDc3NC1lM2YxLTRlNWEtYTBiOC01YjkxZDExNzU4YjIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY0OTg1Mzg0OCwiZXhwIjoxNjUwNDU4NjQ4fQ.Sa5WAlN5G75IFvCUQtxhVRMYFX6SQWLOtJA9X3pojA0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-机构管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_organ"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "25864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fcbec4df2694e282.json",
+  "parameterValues" : [ ]
+}

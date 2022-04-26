@@ -1,0 +1,113 @@
+{
+  "uid" : "3cec990f5c408599",
+  "name" : "删除机构分类",
+  "fullName" : "test_main.Test_institutional#test_del",
+  "historyId" : "c3482b38be59ba0fb7d096cb254d1968",
+  "time" : {
+    "start" : 1650098049102,
+    "stop" : 1650098049195,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "删除机构-分类",
+      "time" : {
+        "start" : 1650098049102,
+        "stop" : 1650098049194,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "机构分类管理-列表",
+        "time" : {
+          "start" : 1650098049102,
+          "stop" : 1650098049194,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "35d0db91ff83cdd7",
+          "name" : "机构分类列表查询成功",
+          "source" : "35d0db91ff83cdd7.txt",
+          "type" : "text/plain",
+          "size" : 8932
+        } ],
+        "parameters" : [ {
+          "name" : "jwtToken",
+          "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+        } ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "系统设置-机构分类"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_institutional"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "18724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cec990f5c408599.json",
+  "parameterValues" : [ ]
+}

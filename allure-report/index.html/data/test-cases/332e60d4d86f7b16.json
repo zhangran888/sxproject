@@ -1,0 +1,98 @@
+{
+  "uid" : "332e60d4d86f7b16",
+  "name" : "重置密码",
+  "fullName" : "test_main.Test_acunt#test_ac_rst",
+  "historyId" : "2b0225836bc6c221dc8a9e8de14e5bd2",
+  "time" : {
+    "start" : 1650098051265,
+    "stop" : 1650098051346,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_main.Test_acunt object at 0x000002045316B9A0>\n\n    @allure.title('重置密码')\n    def test_ac_rst(self):\n>       Account.test_reset_password(jwtToken)\n\ntest_main.py:171: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'\n\n    @allure.step('重置密码')\n    def test_reset_password(jwtToken):\n        data = {\n            'userId': ''\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api('post', Utiltool.ContUtil.ACCOUNT_RESET, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='重置用户成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='重置用户失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\naccount\\Account.py:106: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_main.Test_acunt object at 0x000002045316B9A0>\n\n    @allure.title('重置密码')\n    def test_ac_rst(self):\n>       Account.test_reset_password(jwtToken)\n\ntest_main.py:171: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'\n\n    @allure.step('重置密码')\n    def test_reset_password(jwtToken):\n        data = {\n            'userId': ''\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api('post', Utiltool.ContUtil.ACCOUNT_RESET, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='重置用户成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='重置用户失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\naccount\\Account.py:106: AssertionError",
+    "steps" : [ {
+      "name" : "重置密码",
+      "time" : {
+        "start" : 1650098051266,
+        "stop" : 1650098051345,
+        "duration" : 79
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\zran\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\zran\\PycharmProjects\\ManagementBack\\account\\Account.py\", line 106, in test_reset_password\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "694beb579e79f8da",
+        "name" : "重置用户失败",
+        "source" : "694beb579e79f8da.txt",
+        "type" : "text/plain",
+        "size" : 48
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-用户管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_acunt"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "18724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "332e60d4d86f7b16.json",
+  "parameterValues" : [ ]
+}

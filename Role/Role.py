@@ -10,7 +10,6 @@ from util.ApiUtil import api
 # createTime: 2022-4-8
 # describe:角色管理
 
-
 @allure.step('角色新增')
 def test_role_add(jwtToken):
     data = {

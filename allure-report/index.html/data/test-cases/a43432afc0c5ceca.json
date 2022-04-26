@@ -1,0 +1,98 @@
+{
+  "uid" : "a43432afc0c5ceca",
+  "name" : "新增-零级",
+  "fullName" : "test_main.Test_zero#test_zer_add",
+  "historyId" : "daf8d188bc444a471b9a3c1191f9875c",
+  "time" : {
+    "start" : 1650098049331,
+    "stop" : 1650098049451,
+    "duration" : 120
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <test_main.Test_zero object at 0x000002045316B490>\n\n    @allure.title('新增-零级')\n    def test_zer_add(self):\n>       Zero.test_zero_add(jwtToken)\n\ntest_main.py:87: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'\n\n    @allure.step('新增-零级')\n    def test_zero_add(jwtToken):\n        data = {\n            'organizationName': '32',\n            'uscId': '232332332332232333',\n            'orgUniformName': '23',\n            'orgParentTypeId': '20',\n            'orgTypeId': '21',\n            'abbreviation': 'test',\n            'orderNum': '23',\n            'serveTel': '',\n            'orgId': '',\n            'file': ''\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api(\"post\", Utiltool.ContUtil.ZERO_ADD, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='新增零级机构成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='新增零级机构-失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\nzero\\Zero.py:35: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <test_main.Test_zero object at 0x000002045316B490>\n\n    @allure.title('新增-零级')\n    def test_zer_add(self):\n>       Zero.test_zero_add(jwtToken)\n\ntest_main.py:87: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\njwtToken = 'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'\n\n    @allure.step('新增-零级')\n    def test_zero_add(jwtToken):\n        data = {\n            'organizationName': '32',\n            'uscId': '232332332332232333',\n            'orgUniformName': '23',\n            'orgParentTypeId': '20',\n            'orgTypeId': '21',\n            'abbreviation': 'test',\n            'orderNum': '23',\n            'serveTel': '',\n            'orgId': '',\n            'file': ''\n        }\n        headers = {\n            'Content-Type': 'application/x-www-form-urlencoded',\n            'jwtToken': jwtToken\n        }\n        result = api(\"post\", Utiltool.ContUtil.ZERO_ADD, data=data, headers=headers)\n        if result['code'] == 0:\n            allure.attach(str(result), name='新增零级机构成功', attachment_type=allure.attachment_type.TEXT)\n            assert True\n        else:\n            allure.attach(str(result), name='新增零级机构-失败', attachment_type=allure.attachment_type.TEXT)\n>           assert False\nE           AssertionError\n\nzero\\Zero.py:35: AssertionError",
+    "steps" : [ {
+      "name" : "新增-零级",
+      "time" : {
+        "start" : 1650098049331,
+        "stop" : 1650098049450,
+        "duration" : 119
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"C:\\Users\\zran\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\zran\\PycharmProjects\\ManagementBack\\zero\\Zero.py\", line 35, in test_zero_add\n    assert False\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a9c3e0660e33ca",
+        "name" : "新增零级机构-失败",
+        "source" : "3a9c3e0660e33ca.txt",
+        "type" : "text/plain",
+        "size" : 421
+      } ],
+      "parameters" : [ {
+        "name" : "jwtToken",
+        "value" : "'eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2YWE3MGFjMC05ODhkLTRjOTItYTE1NS05ZGFhZjEzNzBmYWIiLCJzdWIiOiI0MiIsImlzcyI6IkpyeV9hZG1pbiIsImlhdCI6MTY1MDA5ODAyOCwiZXhwIjoxNjUwNzAyODI4fQ.TGRjS_qTYu16DL6zucNS5bVdSgYT-Cas1xp9rIUq0F0'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统设置-零级机构"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_zero"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AHUN2O4M"
+  }, {
+    "name" : "thread",
+    "value" : "18724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a43432afc0c5ceca.json",
+  "parameterValues" : [ ]
+}
