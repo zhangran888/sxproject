@@ -1,6 +1,6 @@
 # author: zhangran
 # createTime: 2022/5/11 16:09:10
-# describe: 钉钉机器人发送测试报告
+# describe: 钉钉机器人发送测试报告  未调通
 
 
 # 获取jenkins构建信息和本次报告地址
@@ -22,11 +22,6 @@ job_last_build_url = server.get_info(job_name)['lastBuild']['url']
 # 报告地址
 report_url = job_last_build_url + 'allure'  # 'allure'为我的Jenkins全局工具配置中allure别名
 
-'''
-钉钉推送方法：
-读取report文件中"prometheusData.txt"，循环遍历获取需要的值。
-使用钉钉机器人的接口，拼接后推送text
-'''
 
 
 def DingTalkSend():
