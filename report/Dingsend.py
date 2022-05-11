@@ -4,7 +4,6 @@
 
 
 # 获取jenkins构建信息和本次报告地址
-import os
 import jenkins  # 安装pip install python-jenkins
 import json
 import urllib3
