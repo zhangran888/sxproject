@@ -1,8 +1,8 @@
 # 账号
 class AcccountUtil():
     # 系统管理员账号、密码
-    ACCOUNT = "ybj111"
-    PASSWORD = "cDqq2Etr7Sv6Qjhz5QePhf2hqnbl+b25/ErY4x347fA35X3Dyt6Dsb00SkIdVN1Av+/G2swuB22l4HigVHPjaNrIfyD/cNHvITduWjbUNl8wYOphdg9l/eWJjrxJ/ngozG7Qd2rq3nJbGFfy9/ifQT+TTNahlMunkq1ewpdF7ZU="
+    ACCOUNT = "SuperManager"
+    PASSWORD = "hd8p4/gQRNB3Qdzmt/JHNwbjP2nkeOkTIiEPddRhAX34Lf9yX6TwbqEB3rITYgWpOjYwntm6D55jbDasvAjD9fhh97Qe8+G5QbkdRG0wBahNzk3q49cNhkwO2V6vXG+D7lI6FEyeSrfmcNqyO+VuqLlvH5VQz+JL7cWxab4xh8Y="
 
 
 # 接口管理

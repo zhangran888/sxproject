@@ -76,7 +76,7 @@ def test_authortity_list(jwtToken):
 @allure.step('删除机构产品权限')
 def test_authortity_del(jwtToken):
     data = {
-        'orgId': 10048
+        'orgId': 100232
     }
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded',

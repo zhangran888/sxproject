@@ -1,7 +1,6 @@
 # 首页
 import allure
 
-from login import Login
 from util import Utiltool
 from util.ApiUtil import api
 

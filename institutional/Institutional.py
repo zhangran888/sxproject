@@ -43,14 +43,14 @@ def test_institu(jwtToken):
 
 @allure.step('新增机构分类')
 def test_add_institutional(jwtToken):
-    # data = {
-    #     'parentId': 20,
-    #     'orgTypeName': 'test'+str(random.randint(50, 99)),
-    #     'orgTypeNo': random.randint(50, 99),
-    #     'remark': '测试'
-    # }
+    data = {
+        'parentId': 20,
+        'orgTypeName': 'test'+str(random.randint(50, 99)),
+        'orgTypeNo': random.randint(50, 99),
+        'remark': '测试'
+    }
     # # 用于报错
-    data = {}
+    # data = {}
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded',
         'jwtToken': jwtToken

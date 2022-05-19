@@ -41,7 +41,7 @@ def test_account_update(jwtToken):
     data = {
         'userName': '编辑测试',
         'orgId': 10028,
-        'idCard': '440509199904220813',
+        'idCard': '440509199904220817',
         'roleIds': '37, 38, 39, 45',
         'phonenumber': '13902748130',
         'account': 'TLCB789',
@@ -91,7 +91,7 @@ def test_account_list(jwtToken):
 @allure.step('重置密码')
 def test_reset_password(jwtToken):
     data = {
-        'userId': ''
+        'userId': '2333'
     }
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded',
@@ -111,7 +111,7 @@ def test_reset_password(jwtToken):
 @allure.step('停用用户')
 def test_disable(jwtToken):
     data = {
-        'userId': '',
+        'userId': '1801',
         'status': 1
     }
     headers = {
